@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "Person.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //Declare an object of a custom Data Type
+    Person Angaran("Angaran", 20);
+
+    Angaran.SaysHello();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
